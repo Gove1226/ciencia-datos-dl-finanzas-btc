@@ -1,0 +1,14 @@
+{
+  "capital_inicial": 50000,
+  "costo_operacion": 0.0,
+  "deslizamiento_bps": 5,
+  "exposicion_max": 0.95,
+  "perdida_diaria_max": 0.05,
+  "antiguedad_max_horas": 30,
+  "tamano_minimo_usdt": 5,
+  "paso_cantidad_btc": 0.000001,
+  "decimales_precio": 2,
+  "reintentos": 3,
+  "espera_base_s": 1.0,
+  "intervalo_consulta_s": 300
+}

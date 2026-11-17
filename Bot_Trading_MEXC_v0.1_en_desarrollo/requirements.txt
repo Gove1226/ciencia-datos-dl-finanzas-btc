@@ -1,0 +1,14 @@
+# Bot de trading MEXC v0.1 — dependencias de Python (3.12)
+# PyTorch se instala aparte (CPU basta para inferencia):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.8
+requests>=2.32
+python-dotenv>=1.0
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+joblib>=1.4
+httpx>=0.27
+pytest>=8.0

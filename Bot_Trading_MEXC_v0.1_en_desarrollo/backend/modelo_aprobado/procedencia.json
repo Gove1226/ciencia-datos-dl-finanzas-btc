@@ -1,0 +1,7 @@
+{
+  "origen": "resultados",
+  "entrenado_en_T4": true,
+  "gpu_entrenamiento": "Tesla T4",
+  "provisional": false,
+  "nota": "Entrenado en NVIDIA T4 (evidencia en evidencia_T4.txt)."
+}

@@ -3,7 +3,7 @@
 Práctica de la materia **Ciencia de Datos** (Prof. Rubén Miguel Rodríguez Rangel): del pronóstico de rendimientos a las bases de un agente de trading.
 Este repositorio muestra el **progreso por avances** (un avance por capítulo del libro *Deep Learning for Finance*, capítulos 7 a 11).
 
-**Estado:** Avances 1 a 4 entregados · Avance 5 (capítulo 11) en preparación.
+**Estado:** Avances 1 a 4 entregados · Avance 5 (capítulo 11) en preparación · Bot de trading MEXC v0.1.0 en desarrollo (ver tabla).
 **Activo:** Bitcoin (BTC-USD), frecuencia diaria, 1,853 observaciones (2021-10-07 → 2026-11-02), fuente Yahoo Finance vía `yfinance`.
 **Equipo:** Alexander Góngora y Diego Muñoz.
 
@@ -19,6 +19,7 @@ La partición es **cronológica** por fecha del objetivo: TR 70 % (1,269 ejemplo
 | 2 | 8 | MLP y LSTM entrenados en **Google Colab con GPU NVIDIA T4** | [`Avance2_Capitulo8_BTC_MLP_LSTM.ipynb`](Avances_1_a_3_Capitulos_7_a_9/Avance2_Capitulo8_BTC_MLP_LSTM.ipynb) |
 | 3 | 9 | Validación temporal (3 ventanas expansivas), umbrales y regla de señal | [`Avance3_Capitulo9_BTC_Validacion_Umbrales.ipynb`](Avances_1_a_3_Capitulos_7_a_9/Avance3_Capitulo9_BTC_Validacion_Umbrales.ipynb) |
 | 4 | 10 | Diseño del entorno del agente (estado, acciones, recompensa) y verificación del simulador | [`Avance_4_Capitulo_10/`](Avance_4_Capitulo_10/) |
+| — | — | **Bot de trading MEXC `v0.1.0` (en desarrollo)**: LLM local + controles de riesgo + simulador en papel; nunca se pasan claves ni APIs a la IA | [`Bot_Trading_MEXC_v0.1_en_desarrollo/`](Bot_Trading_MEXC_v0.1_en_desarrollo/) |
 
 Cada carpeta incluye un `LEEME.txt` con cómo ejecutarla, además de `datos/`, `dlfin/` (código de apoyo) y `salidas*/` (resultados).
 

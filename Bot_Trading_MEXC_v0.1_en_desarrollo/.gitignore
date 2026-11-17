@@ -1,0 +1,21 @@
+# Secretos y datos locales: NUNCA al repositorio
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Entornos y dependencias
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datos generados en ejecución
+agente_datos/
+*.db
+*.db-*
+frontend/dist/
+*.log

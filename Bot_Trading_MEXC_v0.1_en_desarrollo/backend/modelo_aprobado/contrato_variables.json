@@ -1,0 +1,49 @@
+{
+  "modelo": "mlp_ind",
+  "tipo": "mlp",
+  "variables": [
+    "ret",
+    "dist_sma20",
+    "vol20"
+  ],
+  "ventana": 20,
+  "configuracion": {
+    "neuronas": 32,
+    "capas": 2,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "batch": 64,
+    "max_epocas": 200,
+    "paciencia": 20,
+    "weight_decay": 0.0
+  },
+  "semilla": 22,
+  "delta": 0.003,
+  "usar_filtro_sma20": false,
+  "costo": 0.001,
+  "feature_version": "v1",
+  "entrenado_hasta_objetivo": "2025-05-07",
+  "validado_hasta_objetivo": "2026-02-03",
+  "congelado_utc": "2026-11-05T21:18:32.100136+00:00",
+  "entorno": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "cuda_disponible": true,
+    "gpu": "Tesla T4",
+    "so": "Linux-6.6.159+-x86_64-with-glibc2.39"
+  },
+  "dispositivo": "cuda",
+  "canales_orden": [
+    "ret",
+    "dist_sma20",
+    "vol20"
+  ],
+  "canales_definicion": {
+    "ret": "Rendimiento simple del cierre P_t/P_{t-1}-1.",
+    "dist_sma20": "Distancia a la SMA de 20 cierres: cierre/SMA20 - 1.",
+    "vol20": "Desviaci\u00f3n est\u00e1ndar muestral (ddof=1) de los \u00faltimos 20 rendimientos, sin anualizar."
+  }
+}
