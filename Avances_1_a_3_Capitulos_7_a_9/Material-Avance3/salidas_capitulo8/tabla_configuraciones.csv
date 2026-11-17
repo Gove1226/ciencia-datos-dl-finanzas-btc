@@ -1,0 +1,7 @@
+red,neuronas,parametros_entrenables,perdida,optimizador,tasa_aprendizaje,lote,epocas_maximas,epoca_mejor,RMSE_VA,MAE_VA,segundos,semilla,dispositivo_salida_modelo,gpu_nombre_smi,smi_muestras_durante_fit,smi_util_max_pct,smi_mem_max_MiB,smi_mem_antes_MiB,tf_mem_pico_bytes
+LSTM,32,4897,MSE,Adam,0.001,32,100,1,0.019301331036797043,0.014227927635171007,6.2238075733184814,42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,46,37.0,201.0,201.0,70401024
+LSTM,16,1297,MSE,Adam,0.001,32,100,1,0.01933074175888014,0.014216429270608032,5.744014263153076,42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,45,34.0,201.0,193.0,70401024
+LSTM,64,19009,MSE,Adam,0.001,32,100,2,0.01937297023803363,0.014280111459903141,4.94548225402832,42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,39,40.0,201.0,201.0,70401024
+MLP,64,3457,MSE,Adam,0.001,32,100,4,0.01988266032825494,0.014760436356621465,5.744808673858643,42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,43,51.0,193.0,193.0,70401024
+MLP,16,481,MSE,Adam,0.001,32,100,12,0.01992299348821401,0.014698087193722708,8.69843339920044,42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,62,33.0,193.0,123.0,70303232
+MLP,32,1217,MSE,Adam,0.001,32,100,9,0.020264229471321754,0.015214856689758978,6.612122535705566,42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,50,48.0,193.0,193.0,70334976

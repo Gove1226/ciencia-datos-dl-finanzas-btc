@@ -1,0 +1,19 @@
+,dispositivo_salida_modelo,gpu_nombre_smi,smi_muestras_durante_fit,smi_util_max_pct,smi_mem_max_MiB,smi_mem_antes_MiB,tf_mem_pico_bytes
+V1_MLP_64_seed11,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,41,45.0,193.0,123.0,68234240
+V1_MLP_64_seed42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,20,4.0,193.0,193.0,68234240
+V1_MLP_64_seed123,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,21,3.0,193.0,193.0,68234240
+V1_LSTM_32_seed11,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,42,22.0,201.0,193.0,68234240
+V1_LSTM_32_seed42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,20,31.0,201.0,201.0,68234240
+V1_LSTM_32_seed123,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,21,32.0,201.0,201.0,68234240
+V2_MLP_64_seed11,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,39,17.0,201.0,201.0,68605696
+V2_MLP_64_seed42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,22,4.0,201.0,201.0,68605696
+V2_MLP_64_seed123,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,20,4.0,201.0,201.0,68605696
+V2_LSTM_32_seed11,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,81,34.0,201.0,201.0,68605696
+V2_LSTM_32_seed42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,30,33.0,201.0,201.0,68605696
+V2_LSTM_32_seed123,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,46,33.0,201.0,201.0,68605696
+V3_MLP_64_seed11,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,30,44.0,201.0,201.0,68997376
+V3_MLP_64_seed42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,24,4.0,201.0,201.0,68997376
+V3_MLP_64_seed123,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,34,3.0,201.0,201.0,68997376
+V3_LSTM_32_seed11,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,32,36.0,201.0,201.0,68997376
+V3_LSTM_32_seed42,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,72,35.0,201.0,201.0,68997376
+V3_LSTM_32_seed123,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,37,34.0,201.0,201.0,68997376

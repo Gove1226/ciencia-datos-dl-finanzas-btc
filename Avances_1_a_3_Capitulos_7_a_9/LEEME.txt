@@ -1,0 +1,12 @@
+﻿AVANCE 1 - CAPITULO 7 (BTC-USD diario)
+Notebook: Avance1_Capitulo7_BTC.ipynb (ya ejecutado; las salidas estan guardadas). Corre en CPU, no requiere GPU.
+
+Como ejecutarlo desde cero:
+  Local (Jupyter/VS Code): abrir el notebook dentro de esta carpeta y 'Ejecutar todo'.
+  Colab: subir esta carpeta completa a Mi unidad (dlfin/ y datos/ deben quedar junto al notebook) y 'Ejecutar todo'.
+
+Contenido:
+  datos/originales/   datos descargados sin modificar (yfinance) + ficha de descargas
+  datos/procesados/   datos tras auditoria y limpieza + auditoria.json
+  dlfin/              codigo de apoyo (auditoria, objetivo/ventanas, particion, escalador, metricas)
+  salidas/            ficha, diccionario, tabla de particiones, MAE/RMSE de referencias, comportamiento por anio, bitacora y figuras

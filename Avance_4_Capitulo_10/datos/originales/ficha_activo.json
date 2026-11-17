@@ -1,0 +1,9 @@
+{
+  "ticker": "BTC-USD",
+  "nombre": "Bitcoin",
+  "tipo": "cripto",
+  "sector": "Criptomonedas",
+  "mercado": "Mercado cripto 24/7",
+  "moneda": "USD",
+  "zona_horaria": "UTC"
+}

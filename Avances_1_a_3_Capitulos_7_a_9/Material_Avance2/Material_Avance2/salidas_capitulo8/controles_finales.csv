@@ -1,0 +1,11 @@
+control,cumple
+Particiones cronológicas TR < VA < TE,True
+Escalador ajustado solo con TR,True
+"Entradas MLP con forma (n, 20)",True
+"Entradas LSTM con forma (n, 20, 1)",True
+Se probaron 3 configuraciones por red,True
+Se repitió la mejor configuración con 3 semillas por red,True
+Métricas de VA finitas,True
+TE no utilizado para selección ni métricas,True
+Todas las corridas calcularon en GPU (tensor de salida en GPU),True
+GPU T4 identificada y operación GPU verificada,True

@@ -1,0 +1,32 @@
+{
+  "estado": [
+    "ret_t-4",
+    "ret_t-3",
+    "ret_t-2",
+    "ret_t-1",
+    "ret_t",
+    "pronostico_t",
+    "vol20_t",
+    "frac_efectivo",
+    "frac_posicion"
+  ],
+  "dim_estado": 9,
+  "acciones": {
+    "0": "mantener",
+    "1": "comprar",
+    "2": "vender"
+  },
+  "restricciones": [
+    "sin apalancamiento",
+    "sin posiciones negativas (sin cortos)",
+    "compra <= efectivo (costo incluido)",
+    "sin recompra con posición abierta"
+  ],
+  "ejecucion": "apertura de t+1",
+  "recompensa": "V(cierre t+1) - V(cierre t), neta de costos, calculada al cierre de t+1",
+  "costo_por_operacion": 0.001,
+  "capital_inicial": 100000.0,
+  "liquidacion_final": true,
+  "gamma_sugerido": 0.99,
+  "TE_utilizado": false
+}

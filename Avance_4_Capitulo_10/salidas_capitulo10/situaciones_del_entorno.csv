@@ -1,0 +1,7 @@
+situación,emisión,acción pedida,ejecutada,inválida,costo,recompensa,efectivo,unidades
+A. mantener en efectivo (sin posición),2025-05-07,mantener,mantener,False,0.0,0.0,100000.0,0.0
+B. comprar,2025-11-14,comprar,comprar,False,99.9001,1094.2818,0.0,1.058034
+C. mantener posición (sin costo),2025-11-15,mantener,mantener,False,0.0,-1451.6975,0.0,1.058034
+"D. intento de recompra con posición (inválida, se ignora)",2025-11-16,comprar,mantener,True,0.0,-2204.1005,0.0,1.058034
+E. vender,2025-11-17,vender,vender,False,97.4392,-96.7448,97341.74,0.0
+F. intento de venta sin posición (corto: inválida),2025-11-18,vender,mantener,True,0.0,0.0,97341.74,0.0

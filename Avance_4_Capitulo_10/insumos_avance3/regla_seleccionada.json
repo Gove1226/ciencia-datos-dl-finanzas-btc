@@ -1,0 +1,17 @@
+{
+  "modelo_senal": "LSTM",
+  "umbral": 0.002,
+  "regla": "comprar si rendimiento estimado > 0.002; en otro caso efectivo",
+  "seleccionada_con": "VA",
+  "TE_utilizado": false,
+  "senales_compra": 6.0,
+  "patrimonio_final": 100998.53073171624,
+  "rendimiento_neto": 0.009985307317162295,
+  "max_drawdown": 0.02360737456396883,
+  "n_compras": 3.0,
+  "n_ventas": 3.0,
+  "n_operaciones_cerradas": 3.0,
+  "win_rate": 0.6666666666666666,
+  "costos_totales": 605.2309764617826,
+  "dias_en_posicion": 6.0
+}

@@ -1,0 +1,18 @@
+﻿AVANCE 4 - CAPITULO 10 (BTC-USD diario): diseno del entorno del agente
+Notebook: Avance4_Capitulo10_BTC_Entorno_Agente.ipynb (ya ejecutado; las salidas estan guardadas). Corre en CPU: no requiere GPU ni TensorFlow.
+No se entrena ningun agente (el protocolo no lo exige en este avance). TE no se usa.
+
+Como ejecutarlo desde cero:
+  Local (Jupyter/VS Code): abrir el notebook dentro de esta carpeta y 'Ejecutar todo'.
+  Colab: subir esta carpeta completa a Mi unidad (con el nombre 'Avance 4 Capitulo 10') y 'Ejecutar todo'. Si tiene otro nombre, definir AVANCE4_RAIZ.
+
+Contenido:
+  datos/originales/        datos descargados sin modificar (yfinance, BTC-USD diario) + ficha de descargas
+  dlfin/                   codigo de apoyo; entorno.py es el entorno de trading (estado, acciones, restricciones, ejecucion, recompensa)
+  insumos_avance3/         pronosticos del LSTM en VA y regla (delta = 0.20 %) del Avance 3, usados para la transicion calculada y las referencias
+  salidas_capitulo10/      resultados de este avance:
+      especificacion_entorno.json / especificacion_estado.csv   especificacion del entorno
+      transicion_manual.csv / situaciones_del_entorno.csv       transicion calculada a mano y las cuatro situaciones (mantener != comprar != vender)
+      referencias_financieras_VA.csv                            efectivo, comprar y mantener y regla del Avance 3 en el mismo entorno y costos
+      riesgos_simulador.csv / controles_finales.csv             seguimiento: posibles explotaciones del simulador y pruebas que las descartan
+      bitacora_avance4.csv, figuras/

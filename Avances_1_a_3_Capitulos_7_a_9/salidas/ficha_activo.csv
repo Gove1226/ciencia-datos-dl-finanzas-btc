@@ -1,0 +1,12 @@
+,valor
+Activo,Bitcoin (BTC-USD)
+Mercado mostrado,Criptomonedas: un par de criptomoneda y moneda cotizada (BTC / USD)
+Plataforma de origen,Yahoo Finance (agregador) vía yfinance
+Versión(es) yfinance,"1.7.0, 1.8.0"
+Fecha de la última descarga (UTC),2026-11-03T21:44:13+00:00
+Periodo solicitado,"5y (diario, 1d)"
+Moneda cotizada,USD
+Zona horaria,UTC (la vela diaria cierra a las 00:00 UTC)
+Calendario,Continuo 24/7 (no hay días sin negociación)
+Tratamiento de ajustes,auto_adjust=0; adj_close = close (en cripto no hay dividendos ni particiones)
+Volumen,Proporcionado por la fuente; no se inventa ni se rellena

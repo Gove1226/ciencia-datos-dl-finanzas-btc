@@ -1,0 +1,25 @@
+{
+  "filas": 1853,
+  "fecha_min": "2021-10-07",
+  "fecha_max": "2026-11-02",
+  "fechas_duplicadas": 0,
+  "fuera_de_orden": 0,
+  "faltantes_por_columna": {},
+  "infinitos": 0,
+  "precios_no_positivos": 0,
+  "low_mayor_que_high": 0,
+  "volumen_negativo": 0,
+  "volumen_cero": 0,
+  "huecos_calendario(dias!=1)": 0,
+  "rendimientos_extremos(|z_robusto|>6)": 7,
+  "rendimiento_min": -0.15974726027617203,
+  "rendimiento_max": 0.1454118392886461,
+  "close_distinto_adj_close": 0,
+  "limpieza": {
+    "entrada": 1853,
+    "reordenadas": 0,
+    "duplicadas_eliminadas": 0,
+    "invalidas_eliminadas": 0,
+    "salida": 1853
+  }
+}

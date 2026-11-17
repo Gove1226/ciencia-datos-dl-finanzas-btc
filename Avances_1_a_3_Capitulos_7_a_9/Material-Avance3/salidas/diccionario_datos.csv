@@ -1,0 +1,10 @@
+columna,descripcion
+fecha,Fecha de la sesión diaria (UTC)
+open,Precio de apertura (USD)
+high,Precio máximo (USD)
+low,Precio mínimo (USD)
+close,Precio de cierre (USD): base del rendimiento y del objetivo
+adj_close,Cierre ajustado (idéntico a close)
+volume,Volumen negociado (USD) según la fuente
+ret,Rendimiento simple: P_t / P_(t-1) − 1
+y,Objetivo: P_(t+1) / P_t − 1

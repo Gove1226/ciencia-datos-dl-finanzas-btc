@@ -1,0 +1,7 @@
+red,neuronas,semilla,epoca_mejor,MAE_VA,RMSE_VA,segundos,parametros_entrenables,dispositivo_salida_modelo,gpu_nombre_smi,smi_muestras_durante_fit,smi_util_max_pct,smi_mem_max_MiB,smi_mem_antes_MiB,tf_mem_pico_bytes
+MLP,64,11,1,0.014801661220333958,0.01973912491095984,4.100435256958008,3457,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,31,4.0,201.0,201.0,70401024
+MLP,64,42,4,0.014760436224595304,0.01988266018525457,3.995126247406006,3457,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,32,4.0,201.0,201.0,70401024
+MLP,64,123,4,0.01473179926430916,0.02017697294654417,5.668935298919678,3457,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,39,4.0,201.0,201.0,70401024
+LSTM,32,11,1,0.014242135636399844,0.019290132962490287,4.64697265625,4897,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,37,34.0,201.0,201.0,70401024
+LSTM,32,42,1,0.014227927629281774,0.019301331023470463,6.654753684997559,4897,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,48,33.0,201.0,201.0,70401024
+LSTM,32,123,1,0.014257345057501557,0.01933572958209533,4.690564870834351,4897,/job:localhost/replica:0/task:0/device:GPU:0,Tesla T4,37,35.0,201.0,201.0,70401024

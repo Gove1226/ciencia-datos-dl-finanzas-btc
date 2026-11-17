@@ -1,0 +1,2 @@
+fecha,etapa,error,causa,accion_correctiva,verificacion
+2026-11-05 21:37:48 UTC,preparación,sin incidentes en los datos,"auditoría sin duplicados, faltantes ni valores no válidos",se aplicó la regla de limpieza (0 filas cambiadas),"índice único, orden cronológico y valores finitos verificados"

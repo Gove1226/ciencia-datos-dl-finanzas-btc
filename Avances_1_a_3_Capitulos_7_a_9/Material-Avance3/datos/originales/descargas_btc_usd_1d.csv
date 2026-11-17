@@ -1,0 +1,9 @@
+id,ticker,intervalo,period_solicitado,start_solicitado,end_solicitado,ejecutado_utc,filas_recibidas,filas_validas,fecha_min,fecha_max,estado,mensaje,version_yfinance,auto_adjust
+117,BTC-USD,1d,5y,,,2026-10-07T22:05:33+00:00,1827,1826,2021-10-07T00:00:00Z,2026-10-06T00:00:00Z,ok,[intento 1] Eliminadas en limpieza: 0; barra abierta excluida: 1,1.7.0,0
+273,BTC-USD,1d,5y,,,2026-10-12T23:39:45+00:00,1827,1826,2021-10-12T00:00:00Z,2026-10-11T00:00:00Z,ok,[intento 1] Eliminadas en limpieza: 1; barra abierta excluida: 0,1.7.0,0
+429,BTC-USD,1d,5y,,,2026-10-13T21:31:04+00:00,1827,1826,2021-10-13T00:00:00Z,2026-10-12T00:00:00Z,ok,[intento 1] Eliminadas en limpieza: 0; barra abierta excluida: 1,1.7.0,0
+585,BTC-USD,1d,5y,,,2026-10-14T23:39:46+00:00,1827,1826,2021-10-14T00:00:00Z,2026-10-13T00:00:00Z,ok,[intento 1] Eliminadas en limpieza: 0; barra abierta excluida: 1,1.7.0,0
+741,BTC-USD,1d,5y,,,2026-10-15T21:47:17+00:00,1827,1826,2021-10-15T00:00:00Z,2026-10-14T00:00:00Z,ok,[intento 1] Eliminadas en limpieza: 0; barra abierta excluida: 1,1.7.0,0
+897,BTC-USD,1d,5y,,,2026-10-22T21:59:25+00:00,1827,1826,2021-10-22T00:00:00Z,2026-10-21T00:00:00Z,ok,[intento 1] Eliminadas en limpieza: 0; barra abierta excluida: 1,1.7.0,0
+1053,BTC-USD,1d,5y,,,2026-10-29T23:43:01+00:00,1827,1826,2021-10-29T00:00:00Z,2026-10-28T00:00:00Z,ok,[intento 1] Eliminadas en limpieza: 1; barra abierta excluida: 0,1.7.0,0
+1209,BTC-USD,1d,5y,,,2026-11-03T21:44:13+00:00,1827,1826,2021-11-03T00:00:00Z,2026-11-02T00:00:00Z,ok,[intento 1] Eliminadas en limpieza: 1; barra abierta excluida: 0,1.8.0,0

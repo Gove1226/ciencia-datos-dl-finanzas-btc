@@ -1,0 +1,154 @@
+{
+  "activo": "BTC-USD",
+  "fecha_ejecucion_utc": "2026-11-10T01:59:30.430490+00:00",
+  "python": "3.13.16",
+  "tensorflow": "2.21.0",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "gpu_tensorflow": [
+    "Tesla T4"
+  ],
+  "nvidia_smi": "Tue Nov 10 01:57:56 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.82.07              Driver Version: 580.82.07      CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n| N/A   48C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+  "forma_X": [
+    1813,
+    20,
+    1
+  ],
+  "ventana": 20,
+  "canales": [
+    "ret"
+  ],
+  "particiones": {
+    "TR": 1269,
+    "VA": 272,
+    "TE": 272
+  },
+  "max_epocas": 100,
+  "lote": 32,
+  "optimizador": "Adam",
+  "tasa_aprendizaje": 0.001,
+  "paciencia_early_stopping": 12,
+  "semillas_repeticion": [
+    11,
+    42,
+    123
+  ],
+  "memoria_gpu_bytes": {
+    "current": 4075264,
+    "peak": 70401024
+  },
+  "evidencia_gpu_durante_entrenamiento": {
+    "MLP_16": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 62,
+      "smi_util_max_pct": 33.0,
+      "smi_mem_max_MiB": 193.0,
+      "smi_mem_antes_MiB": 123.0,
+      "tf_mem_pico_bytes": 70303232
+    },
+    "MLP_32": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 50,
+      "smi_util_max_pct": 48.0,
+      "smi_mem_max_MiB": 193.0,
+      "smi_mem_antes_MiB": 193.0,
+      "tf_mem_pico_bytes": 70334976
+    },
+    "MLP_64": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 43,
+      "smi_util_max_pct": 51.0,
+      "smi_mem_max_MiB": 193.0,
+      "smi_mem_antes_MiB": 193.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "LSTM_16": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 45,
+      "smi_util_max_pct": 34.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 193.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "LSTM_32": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 46,
+      "smi_util_max_pct": 37.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 201.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "LSTM_64": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 39,
+      "smi_util_max_pct": 40.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 201.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "MLP_64_seed11": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 31,
+      "smi_util_max_pct": 4.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 201.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "MLP_64_seed42": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 32,
+      "smi_util_max_pct": 4.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 201.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "MLP_64_seed123": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 39,
+      "smi_util_max_pct": 4.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 201.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "LSTM_32_seed11": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 37,
+      "smi_util_max_pct": 34.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 201.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "LSTM_32_seed42": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 48,
+      "smi_util_max_pct": 33.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 201.0,
+      "tf_mem_pico_bytes": 70401024
+    },
+    "LSTM_32_seed123": {
+      "dispositivo_salida_modelo": "/job:localhost/replica:0/task:0/device:GPU:0",
+      "gpu_nombre_smi": "Tesla T4",
+      "smi_muestras_durante_fit": 37,
+      "smi_util_max_pct": 35.0,
+      "smi_mem_max_MiB": 201.0,
+      "smi_mem_antes_MiB": 201.0,
+      "tf_mem_pico_bytes": 70401024
+    }
+  },
+  "mejores_configuraciones": {
+    "LSTM": 32,
+    "MLP": 64
+  }
+}

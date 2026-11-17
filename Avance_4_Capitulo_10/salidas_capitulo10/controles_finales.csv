@@ -1,0 +1,10 @@
+control,cumple
+Pronósticos y precios finitos y positivos,True
+Fechas del Avance 3 = partición VA del Avance 1,True
+Ejecución en apertura de t+1 (no en el cierre de t),True
+Estado sin información futura (perturbación de precios posteriores),True
+Sin apalancamiento ni posiciones negativas (300 episodios aleatorios),True
+Σ recompensas = V_final − capital (sin recompensas indebidas),True
+Costos contabilizados (viaje redondo = 2c; suma de costos = costos acumulados),True
+Entorno = simulador del proyecto = Avance 3,True
+TE no utilizado en ningún cálculo,True

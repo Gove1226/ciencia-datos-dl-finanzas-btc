@@ -1,0 +1,32 @@
+AVANCE 2 - CAPITULO 8 (BTC-USD diario): MLP y LSTM en Google Colab con GPU NVIDIA T4
+
+Notebook: Avance2_Capitulo8_BTC_MLP_LSTM.ipynb (ya ejecutado; las salidas estan guardadas).
+Entrenamiento profundo: requiere Colab con GPU T4. El notebook se detiene si no hay GPU o si no es T4.
+Entorno de la ejecucion guardada: Python 3.13.16, TensorFlow 2.21.0, NumPy 2.4.6, pandas 2.2.3 (ver salidas_capitulo8/registro_entrenamiento.json).
+
+Como ejecutarlo desde cero (Colab):
+  1. Subir esta carpeta completa a Mi unidad con el nombre "Material" (dlfin/ y datos/ deben quedar junto a salidas/).
+  2. Abrir el notebook en Colab: Entorno de ejecucion > Cambiar tipo de entorno de ejecucion > T4 GPU.
+  3. Ejecutar todo. Si la carpeta tiene otro nombre o ruta, definir la variable de entorno AVANCE2_RAIZ.
+  Las salidas se escriben en salidas_capitulo8/ (se sobrescriben).
+
+Contenido:
+  datos/originales/        datos descargados sin modificar (yfinance, BTC-USD diario) + ficha de descargas
+  datos/procesados/        datos tras auditoria y limpieza + auditoria.json
+  dlfin/                   codigo de apoyo (auditoria, objetivo/ventanas, particion, escalador, metricas, errores)
+  salidas/                 resultados del Avance 1 (capitulo 7): ficha, diccionario, particiones, referencias, bitacora, figuras
+  salidas_capitulo8/       resultados del Avance 2:
+      tabla_configuraciones.csv         6 configuraciones (3 por red, variando neuronas) con metricas de VA y evidencia de GPU
+      seleccion_configuraciones.csv     mejor configuracion de cada red segun RMSE de VA
+      repeticiones_tres_semillas.csv    mejor configuracion repetida con semillas 11, 42 y 123
+      resumen_tres_semillas.csv         media y desviacion estandar de MAE y RMSE de VA
+      comparacion_modelos_cap7_cap8.csv comparacion con pronostico cero y regresion lineal
+      evidencia_gpu_por_corrida.csv     dispositivo efectivo y uso de GPU (nvidia-smi durante fit()) por corrida
+      registro_entrenamiento.json       versiones, nvidia-smi, semillas, hiperparametros y evidencia de GPU
+      controles_finales.csv             controles automaticos antes de continuar
+      figuras/                          curvas de perdida TR y VA
+      modelos/                          escalador (ajustado solo con TR) y los 6 modelos .keras (3 semillas por red)
+
+Notas:
+  - El conjunto de prueba (TE) no se usa en este avance; solo TR y VA.
+  - El notebook del Avance 1 (capitulo 7) se incluye en esta carpeta; sus resultados estan en salidas/.

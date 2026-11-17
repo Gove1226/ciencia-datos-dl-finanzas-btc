@@ -1,0 +1,16 @@
+control,cumple
+Se hicieron tres ventanas expansivas dentro de TR,True
+Cada entrenamiento termina antes del bloque que evalúa,True
+Entrenamientos y bloques evaluados están dentro de TR,True
+Escaladores reajustados solo con el entrenamiento de cada ventana,True
+"Entradas MLP (n, 20) y LSTM (n, 20, 1)",True
+Métricas por ventana finitas,True
+Predicciones de VA finitas,True
+"Hasta cinco umbrales, todos positivos y fijados antes",True
+Umbral y modelo de señal elegidos solo con VA,True
+Ejecución en t+1 posterior a la emisión,True
+"Costo 0.10 % y capital 100,000",True
+TE no intervino en ninguna decisión,True
+Todas las corridas profundas calcularon en GPU,True
+Se guardó un checkpoint por cada corrida profunda de las ventanas,True
+GPU T4 identificada y operación GPU verificada,True

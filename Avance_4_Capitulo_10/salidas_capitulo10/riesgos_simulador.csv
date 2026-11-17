@@ -1,0 +1,8 @@
+posible explotación,cómo se previene,prueba
+Ejecutar al cierre de t o usar precios de t+1 en el estado,Se ejecuta en la apertura de t+1 y el estado solo contiene datos ≤ t,3.2: estado idéntico con el futuro alterado
+No cobrar costo de compra o de venta,Costo del 0.10 % en cada cambio de posición; el costo sale del efectivo,3.3: viaje redondo = 2c; costos acumulados = suma de costos por paso
+Comprar más de lo que hay (apalancamiento) o vender sin tener (corto),Máscara de acciones válidas; inválidas se ignoran y se registran,3.1: efectivo ≥ 0 y unidades ≥ 0 en 300 episodios aleatorios
+Recompras diarias para manipular costos o exposición,Comprar con posición abierta es inválido,Situación D de la sección 2
+"Recompensa duplicada, adelantada o mal alineada",Se calcula una sola vez al cierre de t+1 como ΔV,3.1: Σ recompensas = V_final − capital
+Usar TE (o información de VA) durante el diseño/entrenamiento,TE no se carga en este avance; el buffer solo recibe TR,Informe de controles (abajo)
+Ganancias sin liquidar (valor no realizado sin costo de salida),Liquidación al último cierre con costo de venta,Sección 4: coincide con dlfin.sim
