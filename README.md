@@ -48,7 +48,5 @@ Cada carpeta incluye un `LEEME.txt` con cómo ejecutarla, además de `datos/`, `
 2. Avances 1 y 4: Jupyter/VS Code o Colab → *Ejecutar todo* (CPU).
 3. Avances 2 y 3: Colab con GPU **T4** (*Entorno de ejecución → Cambiar tipo → T4 GPU*); el notebook se detiene si no hay T4.
 
-## Notas
-- Los notebooks se guardan **ya ejecutados** (con salidas) para que se pueda revisar sin volver a correrlos.
-- No hay claves ni credenciales en este repositorio; los datos son públicos.
-- Material académico: no constituye asesoría financiera.
+
+
